@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+    
+}
+#PVZ{
+    width: 100%;
+    height: 800px;
+    background-color: azure;
+    
+}
+#Santarun{
+    width: 100%;
+    height: 800px;
+    background-color: skyblue;
+}
+#DanceParty{
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.line{
+    height: 6px;
+    background-color: cadetblue;
+    width: 70px;
+    margin: 8px auto;
+}
